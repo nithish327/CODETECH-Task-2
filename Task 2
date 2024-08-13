@@ -1,0 +1,55 @@
+/TEMPERATURE AND HUMIDITY MONITORING WITH DHT SENSOR/
+
+
+#include "DHT.h"             
+#include <LiquidCrystal.h>    
+
+#define DHTPIN 2              
+#define DHTTYPE DHT22         
+
+DHT dht(DHTPIN, DHTTYPE);
+
+// Initialize the LCD (if used)
+LiquidCrystal lcd(7, 8, 9, 10, 11, 12,13); 
+
+void setup() {
+  Serial.begin(9600);         
+  dht.begin();                
+  lcd.begin(16, 2);           
+  lcd.print("Temp & Humidity");
+}
+
+void loop() {
+  
+  float humidity = dht.readHumidity();
+  float temperature = dht.readTemperature(); 
+  
+
+  
+  if (isnan(humidity) || isnan(temperature)) {
+    Serial.println("Failed to read from DHT sensor!");
+    return;
+  }
+
+ 
+  Serial.print("Humidity: ");
+  Serial.print(humidity);
+  Serial.print(" %\t");
+  Serial.print("Temperature: ");
+  Serial.print(temperature);
+  Serial.println(" *C");
+
+  
+  lcd.clear();
+  lcd.setCursor(0, 0); 
+  lcd.print("Temp: ");
+  lcd.print(temperature);
+  lcd.print(" C");
+  
+  lcd.setCursor(0, 1); 
+  lcd.print("Hum: ");
+  lcd.print(humidity);
+  lcd.print(" %");
+
+  delay(5000); 
+}
