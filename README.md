@@ -10,7 +10,7 @@ Domain: Embedded Systems
 
 Duration: August to September 2024
 
-###Temperature and Humidity Monitoring with DHT Sensor
+Project Title: Temperature and Humidity Monitoring with DHT Sensor
 
 
 ### Project Overview:
