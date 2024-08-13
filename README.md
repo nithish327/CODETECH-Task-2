@@ -23,7 +23,7 @@ This project is focused on creating a system that monitors environmental tempera
 
 ### Components Used:
 1. **Arduino Board:** The microcontroller used to interface with the sensor and display the readings.
-2. **DHT Sensor (DHT11/DHT22):** The sensor responsible for measuring temperature and humidity.
+2. **DHT Sensor (DHT22):** The sensor responsible for measuring temperature and humidity.
 3. **16x2 LCD Display (Optional):** Provides a visual interface for displaying the data, making the system independent of a computer.
 4. **Breadboard, Wires:** Basic electronics components to connect the sensor and LCD to the Arduino.
 
