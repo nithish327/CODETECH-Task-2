@@ -2,9 +2,9 @@
 
 Name: NITHISH S
 
-Company: CODETECH IT SOLUTIONS
+Company: CODETECH IT SOLUTIONS 
 
-Intern ID: CT08DS6336
+ID: CT08DS6336
 
 Domain: Embedded Systems
 
