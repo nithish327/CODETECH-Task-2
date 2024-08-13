@@ -43,5 +43,5 @@ This project is focused on creating a system that monitors environmental tempera
 - **Data Processing:** Learn how to process and format data for display.
 - **Electronics Skills:** Gain experience in circuit assembly and troubleshooting.
 
-![image alt]https://github.com/nithish327/CODETECH-Task-2/blob/b0e06b13304f46ebe6de220e74b3768c4d0d20a4/Screenshot%202024-08-13%20215224.png
+![image alt](https://github.com/nithish327/CODETECH-Task-2/blob/b0e06b13304f46ebe6de220e74b3768c4d0d20a4/Screenshot%202024-08-13%20215224.png)
 
